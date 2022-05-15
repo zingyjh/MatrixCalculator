@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Matrix Calculator</title>
+    <script src="./MatrixJs.js"></script>
+    <link rel="stylesheet" href="./MatrixCss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+    <title>Matrix</title>
+</head>
+
+<body>
+
+    <div class="Frame">
+        <h1 class="pgTitle">행렬계산기</h1>
+        <section class="inputArea">
+            <label>
+                <h3>행렬 A</h3>
+                행 <input id="inAx" class="yinp" type="number" min="0" max="9" placeholder="0" autofocus>
+                열 <input id="inAy" class="yinp" type="number" min="0" max="9" placeholder="0">
+            </label>
+        </section>
+        <section class="inputArea">
+            <label>
+                <h3>행렬 B</h3>
+                행 <input id="inBx" class="yinp" type="number" min="0" max="9" placeholder="0">
+                열 <input id="inBy" class="yinp" type="number" min="0" max="9" placeholder="0">
+            </label>
+        </section>
+        <nav class="btnset">
+            <button id="drawB" class="btnDesign">그리기</button>
+            <button id="randomN" class="btnDesign">랜덤값</button>
+            <button id="resetB" class="btnDesign">초기화</button>
+        </nav>
+        <section class="yourMs">
+            <div id="drawBoxA" class="yourMs1"></div>
+            <div id="drawBoxB" class="yourMs1"></div>
+        </section>
+        <nav class="btnset">
+            <button id="plusB" class="btnDesign">더하기</button>
+            <button id="minusB" class="btnDesign">빼기</button>
+            <button id="multipB" class="btnDesign">곱하기</button>
+        </nav>
+        <section class="resultB">
+            <div id="resultBox"></div>
+        </section>
+        <section class="bottomline"></section>
+    </div>
+
+
+</body>
+
+</html>

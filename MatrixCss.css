@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Frame {
+    width: 1000px;
+    background-color: #F7f7F7;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pgTitle {
+    width: 100%;
+    background-color: #3F3F44;
+    color: #F7f7F7;
+    margin-bottom: 1PX;
+}
+
+.inputArea {
+    width: 500px;
+    color: #F7f7F7;
+    float: left;
+    margin-bottom: 1px;
+}
+
+.yinp {
+    width: 50px;
+    height: 25px;
+    border: 1px solid #3F3F44;
+    color: #3F3F44;
+    text-align: center;
+    background-color: #F7f7F7;
+}
+
+.btnset {
+    width: 1000px;
+    margin-bottom: 1px;
+    background-color: #3F3F44;
+    color: #f7f7f7;
+}
+
+.btnDesign {
+    width: 45px;
+    height: 30px;
+    background-color: #3F3F44;
+    border: 1px solid #F7f7F7;
+    color: #F7f7F7;
+}
+
+
+.btnDesign:hover {
+    background-color: #F7f7F7;
+    border: 1px solid #3F3F44;
+    color: #3F3F44;
+}
+
+.btnDesign:active {
+    background-color: #2C1336;
+    border: 1px solid #F7f7F7;
+    color: #F7f7F7;
+}
+
+.yourMs {
+    width: 1000px;
+    height: 375px;
+}
+
+.yourMs1 {
+    width: 50%;
+    float: left;
+}
+
+.boxDeco {
+    width: 45px;
+    height: 35px;
+    display: inline-block;
+    border: 1px solid #3F3F44;
+    background-color: #F7f7F7;
+    text-align: center;
+    margin: 1px;
+}
+
+.boxDeco2 {
+    width: 65px;
+    height: 45px;
+    display: inline-block;
+    border: 2px solid #3F3F44;
+    border-radius: 7px;
+    background-color: #3F3F44;
+    color: #F7f7F7;
+    text-align: center;
+    line-height: 42px;
+    margin: 1px;
+}
+
+.bottomline {
+    width: 1000px;
+    height: 15px;
+    margin-top: 1px;
+    background-color: #3F3F44;
+}
